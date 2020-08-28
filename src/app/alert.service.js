@@ -12,12 +12,12 @@ class AlertService{
             }
         }, "Please enter two valid numbers! ");
 
-        errorBox.classList.remove("invisible");
-        errorBox.innerText = fullMessage;
+        this.errorBox.classList.remove("invisible");
+        this.errorBox.innerText = fullMessage;
     };
 
     hideErrors = () => {
-        errorBox.classList.add("invisible");
+        this.errorBox.classList.add("invisible");
     };
 
 }

@@ -2,8 +2,8 @@ class ComponentService {
     constructor() {
         this.numberOneInput = document.getElementById("numberOne");
         this.numberTwoInput = document.getElementById("numberTwo");
-        this.addValuesButton = document.getElementById("addValuesButton");
-        this.resultDiv = document.getElementById("addValuesButton");
+        this.addValuesButton = document.getElementById("addValues");
+        this.resultDiv = document.getElementById("result");
     }
 
     getInputs() {
